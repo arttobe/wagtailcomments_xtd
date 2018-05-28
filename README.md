@@ -1,6 +1,6 @@
 # Wagtail Comments
 
-This module allows you to manage [django-comments-xtd](https://github.com/danirus/django-comments-xtd) comments into the Wagtail admin UI. Tested on Wagtail 1.7+.
+This module allows you to manage [django-comments-xtd](https://github.com/danirus/django-comments-xtd) comments into the Wagtail admin UI. Tested on Wagtail 2.1+.
 
 
 ![Screenshot 1](images/pages_list.png)
