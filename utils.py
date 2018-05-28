@@ -1,4 +1,4 @@
-from django_comments_xtd.models import XtdComment
+from .models import XtdComment
 
 
 def cleaned_tree(comments):
