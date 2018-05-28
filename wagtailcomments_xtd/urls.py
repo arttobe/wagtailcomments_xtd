@@ -2,7 +2,6 @@ from __future__ import absolute_import, unicode_literals
 from django.conf.urls import url
 from wagtailcomments_xtd import views
 
-
 urlpatterns = [
     url(r'^$', views.pages, name='wagtailcomments_xtd_pages'),
     url(r'^(?P<pk>\d+)/$', views.comments, name='wagtailcomments_xtd_comments'),

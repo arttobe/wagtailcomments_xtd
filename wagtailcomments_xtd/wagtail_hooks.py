@@ -1,8 +1,10 @@
 from django.urls import reverse
+from wagtail.admin.menu import MenuItem
+from wagtail.core import hooks
+
 from wagtailcomments_xtd import urls
-from wagtail.wagtailcore import hooks
 from django.conf.urls import include, url
-from wagtail.wagtailadmin.menu import MenuItem
+
 from django.utils.translation import ugettext_lazy as _
 
 
